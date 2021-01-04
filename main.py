@@ -13,11 +13,11 @@ from getHtml import GetHtml
 header = {}
 # ********SETTINGS********
 # Your cookie here, notice that one cookie for one manga
-header['Cookie'] = "YOUR_COOKIES_HERE"
+header['Cookie'] = "rbc=1002; _gcl_au=1.1.1934190885.1609633164; _atrk_siteuid=WTvLOMDSyC03L8ag; bCode=0; appier_utmz=%7B%22csr%22%3A%22google%22%2C%22timestamp%22%3A1609633164%2C%22lcsr%22%3A%22google%22%7D; _atrk_xuid=85b5bd5c932995901dd8c64faae863e1cfd3e8d31743c30f4b0b778970d78bea; cart_cnt=1609633178-0; uc_wh=renta_rent:sort=d%2Ctype=desc%2Cdisp_series=0|; RFP=91321%2C; recent=hq; rct=1; allow_adlt=1; adlt_code=1; adlt_disp=1; _atrk_ssid=jqV8zDqDzmCLkZPEqykpgB; _gid=GA1.2.1207169619.1609731751; _fbp=fb.2.1609731751103.1332253482; renta_ser=0; pay=0; renta_period=0; time_measure=bookshelf-1609731763-9-341481-4461198; mds=2021010412421f219f09f5ba10787f%2A4461198%2A4461198%2A99991231%2A1609731763-a19943d894a03b8e99; USC1=aJDFYAQuyMr1RCxuzfRwd9NH4461198; _gat_UA-25029787-1=1; uriagePage=https://www.ebookrenta.com/renta/sc/frm/rent/; _ga_DRN8R411KY=GS1.1.1609731751.2.1.1609732520.0; _ga=GA1.2.66792337.1609633164; _atrk_sessidx=12; hq=8; _uetsid=df9291504e3e11ebb352f1892b8c7d7f; _uetvid=55195e404d5911eb9b754735e61838ad"
 # URL of the manga
-url = 'https://dre-viewer.papy.co.jp/sc/view_jsimg2/cbd63773fe531f9ec7/9-493852-84/FIX001/index.view'
+url = 'http://us-dre4.ebookrenta.com/sc/view_jsimg2_en/a19943d894a03b8e99/9-341481-84/rbc1002/index.view'
 # Where to put download manga
-imgdir = "./TEST"
+imgdir = "C:\Users\shazi\OneDrive\Desktop\aaaaaaa"
 
 # Threadpool size, how many thread to use for download then images
 poolsize = 5
